@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.main-header{
+    background-color: chocolate;
+    padding: 8px 16px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+.main-header__logo{
+    font-size: 26px;
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-header__logo:hover{
+    color: black;
+    transition:color .6s;
+}
+.main-nav__items
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 143px);;
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.main-nav__item a:hover{
+    color: black;
+    transition: color .6s;
+}
+#giris{
+    background: url(images/Harley-Davidson-Iron-883-2020-2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    position: relative;
+}
+#giris h1{
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#orta-kisim{
+    text-align: center;
+}
+.row{
+    margin-bottom: 40px;
+}
+.orta-kisim-baslik{
+    font-size: 32px;
+    color: chocolate;
+}
+.col-3
+{
+    width: 30%;
+    display: inline-block;
+}
+.icon i{
+    font-size: 35px;
+    color: chocolate;
+}
+.col-2{
+    width: 50%;
+    display: inline-block;
+    background-color: chocolate;
+    height: 400px;
+}
+.icerik__sag{
+    padding: 40px;
+    vertical-align: top;
+}
+.icerik__sol{
+    background: url(images/499a2b4977cf85a80b9cb40d6546103a_c2dd2345241a2a5b.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.icerik__sag h2{
+    color: #fff;
+}
+.icerik__sag p{
+    color: #fff;
+}
+.btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition-duration: .6s;
+}
+.btn-dark{
+    color:#fff;
+    background-color: black;
+    border: 2px solid  black;
+}
+.btn-dark:hover{
+    color: chocolate;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: background-color .6s;
+}
+.orta-kisim-baslik{
+    text-align: center;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+footer{
+width: 100%;
+background-color: chocolate;
+text-align: center;
+color: #fff;
+margin-top: 10px;
+padding: 10px;
+}
+.plan{
+    text-align: center;
+    padding: 5px;
+    width: 33.3%;
+    float: left;
+}
+.inner-plan{
+    background-color: chocolate;
+    padding: 25px 10px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow .6s;
+}
+.inner-plan:hover{
+    box-shadow: rgba(100, 100, 111, 1.2) 0px 7px 29px 0px;
+}
+.plan__features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.plan__features li{
+    margin: 6px 0;
+    color: #fff;
+}
+.plan--featured{
+    position: relative;
+    top: -20px;
+}
+.plan__badge{
+    background: chocolate;
+    color:#fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+.recommended_plan{
+    color:#fff;
+    background:#a52a2a;
+}
+.backtotop{
+    font-size: 36px;
+    color: black;
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
